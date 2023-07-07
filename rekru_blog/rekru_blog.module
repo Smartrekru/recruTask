@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Rekru Blog module.
+ */
+
+/**
+ * Implements hook_theme().
+ *
+ * @see hook_theme()
+ */
+function rekru_blog_theme() {
+  return [
+    'blog_listing' => [
+      'variables' => [
+        'title' => '',
+        'blog_posts' => [],
+        'first_blog_post' => '',
+      ],
+    ],
+  ];
+}

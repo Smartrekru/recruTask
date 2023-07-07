@@ -1,0 +1,4 @@
+services:
+  Drupal\rekru_blog\BlogService:
+    class: 'Drupal\rekru_blog\BlogService'
+    arguments: ['@entity_type.manager']

@@ -1,0 +1,5 @@
+name: Blog tests
+type: module
+description: Provide configuration files require to run tests.
+package: Rekru
+core_version_requirement: ^9 || ^10

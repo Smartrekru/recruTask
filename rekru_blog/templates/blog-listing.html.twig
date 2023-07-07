@@ -1,0 +1,14 @@
+{{ attach_library('rekru/node--blog--listing') }}
+<div class="node--blog--listing slim-container">
+  <div class="node--blog--listing__header">
+    <h1>{{ title|t({}, {'context': 'Blog listing'}) }}</h1>
+  </div>
+  <div class="node--blog--listing__first-post">
+    {{ drupal_entity('node', first_blog_post, 'first_blog_post') }}
+  </div>
+  <div class="node--blog--listing__posts">
+    {% for blog_post in blog_posts %}
+      {{ drupal_entity('node', blog_post, 'teaser') }}
+    {% endfor %}
+  </div>
+</div>

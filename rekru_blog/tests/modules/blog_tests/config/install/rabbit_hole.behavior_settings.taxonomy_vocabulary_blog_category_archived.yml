@@ -1,0 +1,14 @@
+uuid: 744f72f7-6efe-423b-8799-4a338a9b9f0a
+langcode: pl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blog_category_archived
+id: taxonomy_vocabulary_blog_category_archived
+entity_type_id: taxonomy_vocabulary
+entity_id: blog_category_archived
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

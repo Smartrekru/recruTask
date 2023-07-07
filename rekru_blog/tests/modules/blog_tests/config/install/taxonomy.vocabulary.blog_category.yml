@@ -1,0 +1,8 @@
+uuid: c2fd713e-f20c-4e5d-a719-7d2e69e49c54
+langcode: pl
+status: true
+dependencies: {  }
+name: 'Kategoria bloga'
+vid: blog_category
+description: ''
+weight: 0

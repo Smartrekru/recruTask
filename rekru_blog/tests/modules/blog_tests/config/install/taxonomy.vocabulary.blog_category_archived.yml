@@ -1,0 +1,8 @@
+uuid: cbf461a6-d656-4465-9bba-5ad3ff89ae06
+langcode: pl
+status: true
+dependencies: {  }
+name: 'Archiwalna kategoria bloga'
+vid: blog_category_archived
+description: ''
+weight: 0

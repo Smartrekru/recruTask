@@ -1,0 +1,5 @@
+name: Rekru Blog
+type: module
+description: Provides blog functionalities.
+package: Rekru
+core_version_requirement: ^9 || ^10

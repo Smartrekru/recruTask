@@ -1,0 +1,25 @@
+rekru_blog.blog:
+  path: '/blog/{category}'
+  defaults:
+    _title: 'Blog'
+    _controller: '\Drupal\rekru_blog\Controller\BlogListingController::blogList'
+    category: null
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      category:
+        type: entity:taxonomy_term
+
+rekru_blog.blog-archive:
+  path: '/blog-archiwum/{category}'
+  defaults:
+    _title: 'Blog Archiwum'
+    _controller: '\Drupal\rekru_blog\Controller\BlogListingController::blogList'
+    category: null
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      category:
+        type: entity:taxonomy_term

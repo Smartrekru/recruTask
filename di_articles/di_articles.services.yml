@@ -1,0 +1,4 @@
+services:
+  di_articles.service:
+    class: Drupal\di_articles\ArticlesService
+    arguments: ['@entity_type.manager']

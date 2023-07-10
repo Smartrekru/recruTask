@@ -1,0 +1,5 @@
+name: DI Articles
+type: module
+description: Developer Interview Articles.
+package: Interview
+core_version_requirement: ^9 || ^10
